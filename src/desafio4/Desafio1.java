@@ -1,10 +1,6 @@
-package main;
+package desafio4;
 
-import java.util.SortedMap;
-
-import javax.crypto.KEM;
-
-public class Main {
+public class Desafio1 {
 
 	public static void main(String[] args) {
 
@@ -20,7 +16,7 @@ public class Main {
 			k = k + 1;
 			soma = soma + k;
 		}
-		
+
 		System.out.println(soma);
 
 	}
